@@ -1,5 +1,5 @@
 # AutoRefill
-A simple lightweight and easy to use utility plugin for creating infinite supply dispensers
+A simple lightweight and easy to use utility plugin for creating infinite capacity dispensers
 
 # Installation Instructions:
 1. Locate or create a folder in your Spigot server directory called ```plugins```
