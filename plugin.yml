@@ -1,0 +1,22 @@
+name: AutoRefill
+version: 1.0.1
+api-version: 1.16
+main: net.magicraft.AutoRefill.AutoRefillPlugin
+author: MagicIdol
+description: A simple lightweight plugin for creating infinite dispensers
+load: POSTWORLD
+softdepend: [Vault]
+commands:
+    autorefill:
+        description: AutoRefill commands for infinite dispensers
+        aliases: [arefill,refill]
+        usage: /autorefill <args>
+permissions:
+    autowom.*:
+        description: Gives all AutoRefill permissions
+        children:
+            autowom.cmd.*: true
+    autowom.cmd.*:
+        description: Gives all AutoRefill command permissions
+        children:
+            autowom.cmd.create: true
